@@ -1,0 +1,22 @@
+{
+    "name": "pawel/wppraca",
+    "authors": [
+        {
+            "name": "Pawel Rudnicki",
+            "email": "pawelrudnicki79@gmail.com"
+        }
+    ],
+    "require": {
+        "webdevstudios/cmb2": "^2.4",
+        "josantonius/request": "^1.1"
+    },
+    "autoload": {
+      "psr-4": {
+      	"App\\": "app"
+      },
+      "files": [
+        "vendor/webdevstudios/cmb2/functions.php"
+      ]
+    }
+
+}
